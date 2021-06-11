@@ -39,7 +39,6 @@ In this section, you will load the information about cryptocurrencies and perfor
 
 2. Using the following `requests` library, retreive the necessary data from the following API endpoint from _CryptoCompare_ - `https://min-api.cryptocompare.com/data/all/coinlist`.  __HINT:__ You will need to use the 'Data' key from the json response, then transpose the DataFrame. Name your DataFrame `crypto_df`.
 
-
 With the data loaded into a Pandas DataFrame, continue with the following data preprocessing tasks.
 
 3. Keep only the necessary columns: 'CoinName','Algorithm','IsTrading','ProofType','TotalCoinsMined','TotalCoinSupply'
